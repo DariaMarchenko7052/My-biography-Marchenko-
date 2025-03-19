@@ -1,4 +1,4 @@
-/* Общие стили */
+ /* Общие стили */
 body {
     font-family: "Times New Roman", serif;
     background-color: #001F3F;
@@ -39,3 +39,136 @@ body {
   border: 3px solid #B8860B;  /* Темно-золотая граница */
   padding: 20px;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #001F3F;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #B8860B;
+    color: white;
+}
+
+/* Стили для второй страницы */
+.about-page header {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-page h2 {
+    font-size: 70px;
+    font-family: "Brush Script MT", cursive;
+    color: #B8860B;
+}
+
+/* Размещение изображений */
+.side-image {
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+
+.left {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.center-image img {
+    width: 200px;
+    height: auto;
+}
+.profile-photo {
+    width: 200px;
+        height: auto;
+    border: 5px solid #B8860B;  /* Золотая граница фото */
+    border-radius: 15px;  /* Скругленные углы */
+    margin-top: 20px;
+}
+/* Колонки */
+.left-column, .right-column {
+    width: 40%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.left-column {
+    text-align: left;
+}
+
+.right-column {
+    text-align: right;
+}
+
+/* Подчеркивание и жирный шрифт */
+u {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+/* Подключение шрифтов */
+.index-page h1 {
+    font-family: "Brush Script MT", cursive;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+/* Граница страницы */
+.index-page {
+    border: 3px solid #B8860B;  /* Темно-золотая граница */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Фото */
+.profile-photo {
+    width: 200px;
+    height: auto;
+    border: 5px solid #B8860B;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Кнопка под фото */
+.button {
+    display: block;  /* Размещает кнопку под изображением */
+    margin: 20px auto 0;  /* Отступ сверху 20px, автоматическое центрирование */
+    padding: 10px 20px;
+    background-color: white;
+    color: #001F3F;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #B8860B;
+    color: white;
+} 
+
+    
