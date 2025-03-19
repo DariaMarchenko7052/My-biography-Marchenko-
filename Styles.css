@@ -1,0 +1,41 @@
+/* Общие стили */
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #001F3F;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Стили главной страницы */
+.index-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.index-page h1 {
+    font-size: 80px;
+    font-family: "Brush Script MT", cursive;
+    color: #B8860B;
+}
+
+.index-page p {
+    font-size: 20px;
+}
+
+.index-page strong {
+    font-size: 24px;
+}
+.index-page {
+  border: 3px solid #B8860B;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 3px solid #B8860B;  /* Темно-золотая граница */
+  padding: 20px;
+  box-sizing: border-box;
